@@ -58,7 +58,7 @@ function start() {
     
     println("You caught " + fishCaught);
     var elt = document.getElementById("basket");
-    elt.innerText = "You caught " + fishCaught ;
+   elt.innerHTML = fishCaught + "<BR>" + elt.innerHTML
     checkBasket(fishCaught);
 
  }
